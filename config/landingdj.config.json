@@ -19,7 +19,7 @@
     "type": "image",
     "url": "/images/salvaje2.JPG",
     "ctaText": "Booking",
-    "layout": "titles",
+    "layout": "default",
     "titles": [
       { "text": "SALVAJE" },
       { "text": "SALVAJE" },
