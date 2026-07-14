@@ -2,9 +2,9 @@
   "designPreset": "SalvajeDjPreset",
   "validDesignPresets": ["gold", "neon", "slate", "pearl", "ember", "frost", "sienna", "vapor", "barbie", "barbie-dark", "SalvajeDjPreset"],
 
-  "artisticName": "AntoDJ",
+  "artisticName": "Anto Bravo DJ",
   "slogan": "   ",
-  "description": "Naci en Montevideo, Uruguay. Mi infancia la vivi en Ombues de Lavalle, Colonia donde creci rodeado de la tranquilidad del campo y aprendi valores que hoy siguen guiando mi vida: la humildad, el esfuerzo y la perseverancia. Tambien estuve un tiempo viviendo en Tarariras donde termine la primaria y luego me mudo a Durazno, Uy. Donde hubo un antes y un despues en mi vida. Comenzaron muchas de las experiencias que formarian mi caracter y futuro profesional. como DJ he tenido la oportunidad de presentarme en una amplia variedad de escenarios, compartiendo mi propuesta musical en sunsets, afters, fiestas privadas y eventos de gran nivel. Como la convocatoria de X Live Producciones donde comparti cabina con ZAARK Dj y productor brasilero. Fiestas en Punta del este como la Neighborhood, yates, fiestas privadas. Sunsets en paradores como Chicho Chihuahua y Sea Sunset en ciudad de la costa.",
+  "description": "DJ y Productor musical uruguaya radicada en Punta del este con mas de 5 años de trayectoria en la escena electronica nacional e internacional. Con una identidad sonora marcada por la fusion de energia, elegancia y profundidad ritmica. Especilizada en House, Melodic House, Deep House, Tech House.",
   "logo": "/images/logo.png",
   "favicon": "/favicon.ico",
 
@@ -17,7 +17,7 @@
 
   "hero": {
     "type": "image",
-    "url": "/images/salvaje2.JPG",
+    "url": "/images/portada.JPG",
     "ctaText": "Booking",
     "layout": "default",
     "titles": [
@@ -35,7 +35,7 @@
 
   "bioConFoto": {
     "type": "image",
-    "url": "/images/salvaje2.JPG",
+    "url": "/images/grutas.JPG",
     "alt": "Salvaje DJ"
   },
   "bioConFotoTexts": {
@@ -86,7 +86,7 @@
     {
       "id": "eq_2",
       "name": "Mixer Pioneer DJM-900NXS2",
-      "category": "Sistemas de Audio",
+      "category": "Mixer",
       "icon": "speaker"
     }
   ],
@@ -97,9 +97,9 @@
   },
 
   "gallery": [
-    "/images/Salvaje2.JPG",
-    "/images/Salvaje.PNG",
-    "/images/Salvaje5.JPG"
+    "/images/anto.JPG",
+    "/images/portada.jpg",
+    "/images/grutas.JPG"
   ],
   "galleryTexts": {
     "sectionTag": "Gira & Eventos",
@@ -134,18 +134,18 @@
     {
       "id": "song_1",
       "title": "Starlight (Original Mix)",
-      "url": "https://soundcloud.com/fabian-aguirre-842759933/salvaje-set-garden"
+      "url": "https://soundcloud.com/anto-bravo-240086065/tech-house-set2026"
     },
     {
       "id": "song_3",
       "title": "Live at Club",
-      "url": "https://soundcloud.com/fabian-aguirre-842759933/set-psytrance-popper"
+      "url": "https://soundcloud.com/anto-bravo-240086065/demomykonos-wav"
     }
 
   ],
   "songsTexts": {
     "sectionTag": "Escenario Musical",
-    "heading": "Mi sonido",
+    "heading": "Escuchá mi Sonido",
     "description": " "
   },
 
@@ -153,12 +153,12 @@
     {
       "id": "music_1",
       "title": "Starlight (Original Mix)",
-      "url": "https://soundcloud.com/fabian-aguirre-842759933/salvaje-set-garden"
+      "url": "https://soundcloud.com/anto-bravo-240086065/tech-house-set2026"
     },
     {
       "id": "music_2",
       "title": "Live at Club",
-      "url": "https://soundcloud.com/fabian-aguirre-842759933/set-psytrance-popper"
+      "url": "https://soundcloud.com/anto-bravo-240086065/demomykonos-wav"
     }
   ],
   "musicTexts": {
