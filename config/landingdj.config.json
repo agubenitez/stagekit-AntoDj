@@ -35,7 +35,7 @@
 
   "bioConFoto": {
     "type": "image",
-    "url": "/images/grutas.JPG",
+    "url": "/images/Grutas.JPG",
     "alt": "Anto Bravo DJ"
   },
   "bioConFotoTexts": {
@@ -47,7 +47,7 @@
   "bioTexts": {
     "sectionTag": "Trayectoria & Sello",
     "headingPrefix": "Detr\u00e1s del Sonido: ",
-    "heading": "Salvaje DJ",
+    "heading": "Anto Bravo DJ",
     "cardTitle": "",
     "badges": [
       { "title": "", "description": "" },
@@ -117,7 +117,7 @@
   "gallery": [
     "/images/anto.jpg",
     "/images/portada.jpg",
-    "/images/grutas.JPG"
+    "/images/Grutas.JPG"
   ],
   "galleryTexts": {
     "sectionTag": "Gira & Eventos",
