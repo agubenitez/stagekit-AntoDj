@@ -2,7 +2,7 @@
   "designPreset": "SalvajeDjPreset",
   "validDesignPresets": ["gold", "neon", "slate", "pearl", "ember", "frost", "sienna", "vapor", "barbie", "barbie-dark", "SalvajeDjPreset"],
 
-  "artisticName": "Anto Bravo DJ",
+  "artisticName": "Anto Bravo",
   "slogan": "   ",
   "description": "DJ y Productor musical uruguaya radicada en Punta del este con mas de 5 años de trayectoria en la escena electronica nacional e internacional. Con una identidad sonora marcada por la fusion de energia, elegancia y profundidad ritmica. Especilizada en House, Melodic House, Deep House, Tech House.",
   "logo": "/images/logo.png",
@@ -17,14 +17,14 @@
 
   "hero": {
     "type": "image",
-    "url": "/images/portada.JPG",
-    "ctaText": "Booking",
+    "url": "/images/portada.jpg",
+    "ctaText": "BOOKING",
     "layout": "default",
     "titles": [
-      { "text": "SALVAJE" },
-      { "text": "SALVAJE" },
-      { "text": "SALVAJE" },
-      { "text": "SALVAJE" }
+      { "text": "A" },
+      { "text": "A" },
+      { "text": "A" },
+      { "text": "A" }
     ],
     "validHeroLayouts": ["default", "titles"]
   },
@@ -97,7 +97,7 @@
   },
 
   "gallery": [
-    "/images/anto.JPG",
+    "/images/anto.jpg",
     "/images/portada.jpg",
     "/images/grutas.JPG"
   ],
@@ -112,13 +112,13 @@
     {
       "id": "vid_1",
       "youtubeId": "kMJVNerOtRI",
-      "title": "Salvaje DJ- Live Sunset DJ Set 2026",
+      "title": "Anto Bravo DJ- Live Sunset DJ Set 2026",
       "thumbnail": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?q=80&w=1200"
     },
     {
       "id": "vid_2",
       "youtubeId": "kMJVNerOtRI",
-      "title": "Salvaje DJ- Live Set Punta del Este 2025",
+      "title": "Anto Bravo DJ- Live Set Punta del Este 2025",
       "thumbnail": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=1200"
     }
   ],
@@ -330,13 +330,13 @@
     "message": "Hola! Vi tu PressKit Web y quiero consultarte sobre un evento."
   },
   "socials": {
-    "instagram": "https://www.instagram.com/salvaje_dj?igsh=YnlleTRoY3d6djJs",
-    "soundcloud": "https://soundcloud.com/fabian-aguirre-842759933"
+    "instagram": "https://www.instagram.com/antobravodj_/",
+    "soundcloud": "https://soundcloud.com/anto-bravo-240086065/"
   },
   "destinationEmail": "agubenitez1995@gmail.com",
 
   "seo": {
-    "title": "Alexis Verdi | DJ & Productor de Eventos de Lujo",
+    "title": "Anto Bravo | DJ & Productor de Eventos de Lujo",
     "description": "DJ profesional internacional experto en bodas de alta gama, galas corporativas y experiencias inmersivas con la mejor acústica y equipamiento.",
     "keywords": ["DJ bodas boutique", "DJ eventos de lujo", "sonido profesional L-Acoustics", "DJ corporativos premium"],
     "ogImage": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=1200"
