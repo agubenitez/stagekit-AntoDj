@@ -121,7 +121,7 @@
   ],
   "galleryTexts": {
     "sectionTag": "Gira & Eventos",
-    "heading": "Momentos Capturados en Vivo",
+    "heading": "Momentos capturados en Vivo",
     "description": "Una mirada de cerca a la atmósfera y energía de los sets en vivo, festivales y fiestas privadas de alto nivel.",
     "overlayLabel": "Stage Capture"
   },
@@ -130,22 +130,22 @@
     {
       "id": "vid_1",
       "youtubeId": "kMJVNerOtRI",
-      "title": "Anto Bravo DJ- Live Sunset DJ Set 2026",
+      "title": "Anto Bravo DJ- Sunset DJ Set 2026",
       "thumbnail": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?q=80&w=1200"
     },
     {
       "id": "vid_2",
       "youtubeId": "kMJVNerOtRI",
-      "title": "Anto Bravo DJ- Live Set Punta del Este 2025",
+      "title": "Anto Bravo DJ- Punta del Este 2025",
       "thumbnail": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=1200"
     }
   ],
   "videosTexts": {
     "sectionTag": "Sets & Sesiones",
-    "heading": "Videosets en vivo",
+    "heading": "Live-Sets",
     "description": "Siente el ritmo de los sets en vivo, transmitidos directamente desde el escenario.",
     "playLabel": "Reproducir video",
-    "subtitleLabel": "Presentación Audiovisual Oficial"
+    "subtitleLabel": "Live Set"
   },
 
   "songs": [
@@ -170,12 +170,12 @@
   "music": [
     {
       "id": "music_1",
-      "title": "Starlight (Original Mix)",
+      "title": "TECH-HOUSE-SET2026",
       "url": "https://soundcloud.com/anto-bravo-240086065/tech-house-set2026"
     },
     {
       "id": "music_2",
-      "title": "Live at Club",
+      "title": "Demomykonos",
       "url": "https://soundcloud.com/anto-bravo-240086065/demomykonos-wav"
     }
   ],
