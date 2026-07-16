@@ -1,5 +1,5 @@
 {
-  "designPreset": "SalvajeDjPreset",
+  "designPreset": "barbie-dark",
   "validDesignPresets": ["gold", "neon", "slate", "pearl", "ember", "frost", "sienna", "vapor", "barbie", "barbie-dark", "SalvajeDjPreset"],
 
   "artisticName": "Anto Bravo",
@@ -36,7 +36,7 @@
   "bioConFoto": {
     "type": "image",
     "url": "/images/grutas.JPG",
-    "alt": "Salvaje DJ"
+    "alt": "Anto Bravo DJ"
   },
   "bioConFotoTexts": {
     "sectionTag": "Presentación",
