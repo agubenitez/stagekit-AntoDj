@@ -10,7 +10,7 @@
 
   "sectionMaxWidth": "1500px",
   "validSectionIds": ["hero", "bio_con_foto", "bio", "services", "equipment", "gallery", "videos", "songs", "music", "faq", "tours", "tour_table", "contact"],
-  "sectionOrder": ["hero","bio_con_foto","music","songs","tours","tour_table","videos","gallery", "contact"],
+  "sectionOrder": ["hero","bio_con_foto","music","tours","videos","gallery","equipment","contact"],
   "toursSource": "google-sheets",
   "toursSourceValid": ["static", "google-sheets"],
   "toursSheetUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRqPK5-3p4lGd9J1P3LQmeLDBdNbJ5Qh9ekLwk72nx92IoEdEvfHRlmkTtDnJ464AXf0vYQqq50Curs/pub?gid=0&single=true&output=csv",
@@ -85,6 +85,24 @@
     },
     {
       "id": "eq_2",
+      "name": "Pioneer DJ CDJ-3000",
+      "category": "Controladores",
+      "icon": "speaker"
+    },
+    {
+      "id": "eq_3",
+      "name": "Pioneer DJ CDJ-3000",
+      "category": "Controladores",
+      "icon": "speaker"
+    },
+    {
+      "id": "eq_4",
+      "name": "Monitores",
+      "category": "Audio",
+      "icon": "speaker"
+    },
+    {
+      "id": "eq_5",
       "name": "Mixer Pioneer DJM-900NXS2",
       "category": "Mixer",
       "icon": "speaker"
@@ -92,8 +110,8 @@
   ],
   "equipmentTexts": {
     "sectionTag": "Rider Técnico",
-    "heading": "Equipamiento Profesional de Alta Gama",
-    "description": "Utilizamos tecnología líder en la industria para garantizar una fidelidad acústica óptima y un show visual impactante."
+    "heading": "Set up sets",
+    "description": "Set up ideal para cada evento, con equipos de alta gama y sonido profesional."
   },
 
   "gallery": [
@@ -125,7 +143,7 @@
   "videosTexts": {
     "sectionTag": "Sets & Sesiones",
     "heading": "Videosets en vivo",
-    "description": "Siente el ritmo y sintoniza con el espectáculo visual y auditivo de los sets en vivo, transmitidos directamente desde el escenario.",
+    "description": "Siente el ritmo de los sets en vivo, transmitidos directamente desde el escenario.",
     "playLabel": "Reproducir video",
     "subtitleLabel": "Presentación Audiovisual Oficial"
   },
@@ -291,7 +309,6 @@
     "networkError": "Ocurri\u00f3 un problema de red al intentar transmitir el mensaje.",
     "bullets": [
       "Soporte técnico y rider disponible",
-      "Contrato legal y factura disponible",
       "Respuesta garantizada en 24 horas hábiles"
     ]
   },
