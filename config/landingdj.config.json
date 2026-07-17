@@ -1,6 +1,6 @@
 {
-  "designPreset": "barbie-dark",
-  "validDesignPresets": ["gold", "neon", "slate", "pearl", "ember", "frost", "sienna", "vapor", "barbie", "barbie-dark", "SalvajeDjPreset"],
+  "designPreset": "barbie-blue",
+  "validDesignPresets": ["gold", "neon", "slate", "pearl", "ember", "frost", "sienna", "vapor", "barbie", "barbie-dark", "barbie-blue", "SalvajeDjPreset"],
 
   "artisticName": "Anto Bravo",
   "slogan": "   ",
