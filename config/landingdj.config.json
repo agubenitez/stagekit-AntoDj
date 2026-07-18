@@ -1,8 +1,8 @@
 {
-  "designPreset": "barbie-blue",
+  "designPreset": "SalvajeDjPreset",
   "validDesignPresets": ["gold", "neon", "slate", "pearl", "ember", "frost", "sienna", "vapor", "barbie", "barbie-dark", "barbie-blue", "SalvajeDjPreset"],
 
-  "artisticName": "Anto Bravo",
+  "artisticName": "Anto Bravo DJ",
   "slogan": "   ",
   "description": "DJ y Productor musical uruguaya radicada en Punta del este con mas de 5 años de trayectoria en la escena electronica nacional e internacional. Con una identidad sonora marcada por la fusion de energia, elegancia y profundidad ritmica. Especilizada en House, Melodic House, Deep House, Tech House.",
   "logo": "/images/logo.png",
@@ -18,19 +18,19 @@
   "hero": {
     "type": "image",
     "url": "/images/portada.jpg",
-    "ctaText": "BOOKING",
-    "layout": "default",
+    "ctaText": "",
+    "layout": "titles",
     "titles": [
-      { "text": "A" },
-      { "text": "A" },
-      { "text": "A" },
-      { "text": "A" }
+      { "text": "DJ" },
+      { "text": "Anto Bravo" },
+      { "text": "Anto Bravo" },
+      { "text": "Anto Bravo" }
     ],
     "validHeroLayouts": ["default", "titles"]
   },
   "heroTexts": {
-    "badge": "DJ",
-    "scrollIndicator": "Descubrir"
+    "badge": "",
+    "scrollIndicator": ""
   },
 
   "bioConFoto": {
@@ -317,7 +317,7 @@
     "bio": "Bio",
     "bioConFoto": "Bio",
     "services": "Servicios",
-    "equipment": "Equipamiento",
+    "equipment": "Rider Técnico",
     "gallery": "Gallery",
     "videos": "Sets Lives",
     "songs": "Music",
