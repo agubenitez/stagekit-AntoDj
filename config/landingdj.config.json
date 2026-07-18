@@ -35,7 +35,7 @@
 
   "bioConFoto": {
     "type": "image",
-    "url": "/images/silla xdj.JPG",
+    "url": "/images/silla xdj.jpg",
     "alt": "Anto Bravo DJ"
   },
   "bioConFotoTexts": {
@@ -117,7 +117,7 @@
   "gallery": [
     "/images/stereo.jpg",
     "/images/espalda camp.jpg",
-    "/images/narbona.JPG"
+    "/images/narbona.jpg"
   ],
   "galleryTexts": {
     "sectionTag": "Gira & Eventos",
