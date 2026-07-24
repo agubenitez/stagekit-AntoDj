@@ -1,5 +1,5 @@
 {
-  "designPreset": "SalvajeDjPreset",
+  "designPreset": "barbie-dark",
   "validDesignPresets": ["gold", "neon", "slate", "pearl", "ember", "frost", "sienna", "vapor", "barbie", "barbie-dark", "barbie-blue", "SalvajeDjPreset"],
 
   "artisticName": "Anto Bravo DJ",
@@ -21,7 +21,7 @@
     "ctaText": "",
     "layout": "titles",
     "titles": [
-      { "text": "DJ" },
+      { "text": "_w_" },
       { "text": "Anto Bravo" },
       { "text": "Anto Bravo" },
       { "text": "Anto Bravo" }
