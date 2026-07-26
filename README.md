@@ -4,20 +4,21 @@ LandingDJ es el primer producto del ecosistema **StageKit Core**, una landing pa
 
 Este proyecto ha sido concebido bajo una arquitectura robusta, modular y completamente declarativa, permitiendo desplegar múltiples landings independientes para diferentes DJs modificando exclusivamente un archivo de configuración JSON externo, recursos multimedia y variables de estilo.
 
-## 🚀 Arquitectura y Stack
+## Arquitectura y Stack
 
 El proyecto utiliza un stack de nivel de producción alineado con los objetivos de StageKit Core:
 
-- **Framework**: Next.js (App Router, React Server Components) para optimización de SEO, Server-Side Rendering y máxima velocidad de carga.
-- **Estilos**: Tailwind CSS (v4) con variables CSS dinámicas inyectadas desde la configuración.
-- **Animaciones**: Motion (`motion/react`) para transiciones premium y micro-interacciones suaves.
+- **Framework**: Next.js 15 (App Router, React Server Components) para optimización de SEO, Server-Side Rendering y máxima velocidad de carga.
+- **Estilos**: Tailwind CSS (v4) con ~75 variables CSS dinámicas inyectadas desde la configuración.
+- **Animaciones**: Motion (`motion/react` v12) para transiciones premium y micro-interacciones suaves.
 - **Tipografía**: Catálogo predefinido con fuentes de Google Fonts cargadas de forma óptima.
 - **Validación de Configuración**: Zod para verificar que la configuración sea robusta y segura antes del renderizado.
 - **Servicios**: Arquitectura de correo electrónico desacoplada (Email Services) con un patrón Provider para evitar el acoplamiento con intermediarios específicos.
+- **Tours Dinámicos**: Integración con Google Sheets (CSV público) para gestión de eventos en tiempo real sin deploy.
 
 ---
 
-## 📂 Estructura de Documentación (`/docs`)
+## Estructura de Documentación (`/docs`)
 
 Para asegurar la continuidad del desarrollo por cualquier desarrollador o IA, la documentación está organizada en los siguientes documentos clave:
 
@@ -28,17 +29,19 @@ Para asegurar la continuidad del desarrollo por cualquier desarrollador o IA, la
 5. **[CONFIG_GUIDE.md](./docs/CONFIG_GUIDE.md)**: Guía completa de reconfiguración vía JSON con ejemplos prácticos.
 6. **[IMPROVEMENTS.md](./docs/IMPROVEMENTS.md)**: Catálogo de ideas de mejora para aumentar el dinamismo vía JSON.
 7. **[AI_HANDOVER.md](./docs/AI_HANDOVER.md)**: Instrucciones específicas y contexto técnico detallado para asistentes de IA que retomen el proyecto.
+8. **[CONVENTIONS.md](./docs/CONVENTIONS.md)**: Convenciones técnicas de desarrollo, estructura de carpetas y estándares de código.
+9. **[ActiveTask.md](./docs/ActiveTask.md)**: Registro de la última tarea completada con contexto histórico.
 
 ---
 
-## 🛠️ Cómo Iniciar el Proyecto
+## Como Iniciar el Proyecto
 
 ### Requisitos Previos
 
 - Node.js (v18.x o superior)
 - npm (v9.x o superior)
 
-### Instalación
+### Instalacion
 
 ```bash
 npm install
@@ -52,9 +55,9 @@ Para iniciar el servidor de desarrollo en el puerto 3000:
 npm run dev
 ```
 
-### Producción
+### Produccion
 
-Para compilar y arrancar la versión de producción:
+Para compilar y arrancar la version de produccion:
 
 ```bash
 npm run build
@@ -63,26 +66,28 @@ npm run start
 
 ---
 
-## ⚙️ Reconfiguración vía JSON
+## Reconfiguracion via JSON
 
-Este proyecto se personaliza íntegramente editando `config/landingdj.config.json`. No necesitás tocar código React para cambiar contenido, colores, secciones o SEO.
+Este proyecto se personaliza integramente editando `config/landingdj.config.json`. No necesitas tocar codigo React para cambiar contenido, colores, secciones o SEO.
 
-| Categoría | Campo clave en el JSON | Qué cambia |
+| Categoria | Campo clave en el JSON | Que cambia |
 |-----------|------------------------|------------|
 | Identidad | `artisticName`, `slogan`, `description`, `logo`, `favicon` | Nombre del artista/marca, eslogan, logo y favicon del sitio |
-| Colores | `colors.primary`, `.secondary`, `.accent`, `.background`, `.text` | Paleta de 5 colores HEX que tiñen toda la interfaz |
-| Tipografía | `typography.heading`, `.body` | Fuentes para títulos y cuerpo (catálogo en `schema.ts`) |
-| Hero | `hero.url`, `.ctaText` | Imagen o video de portada y texto del botón principal |
-| BioConFoto | `bioConFoto.url`, `bioConFotoTexts.*` | Sección de presentación con imagen + texto (Split Editorial) |
-| Servicios | `services[]` | Lista de servicios/productos con título, descripción e icono |
-| Galería | `gallery[]` | Hasta 10 imágenes en grilla responsiva |
+| Design Presets | `designPreset`, `validDesignPresets` | 12 presets visuales con ~75 tokens (colores, tipografia, radios, sombras, animaciones) |
+| Hero | `hero.url`, `.ctaText`, `.layout` | Imagen o video de portada, texto del CTA y layout (default/titles) |
+| BioConFoto | `bioConFoto.url`, `bioConFotoTexts.*` | Seccion de presentacion con imagen + texto (Split Editorial) |
+| Servicios | `services[]` | Lista de servicios/productos con titulo, descripcion e icono |
+| Equipamiento | `equipment[]` | Rider tecnico con categorias e iconos |
+| Galeria | `gallery[]` | Hasta 10 imagenes en grilla responsiva |
 | Videos | `videos[]` | Hasta 10 videos de YouTube con lazy loading |
-| Music | `music[]`, `musicTexts.*`, `musicSoundCloudVisual` | Tracks embedidos (SoundCloud, Spotify, Apple Music) con visual mode para SoundCloud |
-| FAQ | `faq[]` | Hasta 10 preguntas frecuentes con acordeón |
+| Songs | `songs[]` | Tracks embedidos (SoundCloud, Spotify, Apple Music) |
+| Music | `music[]`, `musicTexts.*`, `musicSoundCloudVisual` | Tracks embedidos con visual mode para SoundCloud |
+| FAQ | `faq[]` | Hasta 10 preguntas frecuentes con acordeon |
+| Tours | `tours[]`, `toursSource`, `toursSheetUrl` | Fechas de shows (estatico o via Google Sheets dinamico) |
 | Redes Sociales | `socials.*` | Links a Instagram, SoundCloud, Spotify, etc. |
 | Contacto | `contactForm`, `destinationEmail`, `whatsapp` | Formulario, email destino, WhatsApp |
 | Textos | `*Texts.*` | Todos los labels, placeholders, headings y mensajes |
 | Orden de secciones | `sectionOrder` | Reordena las secciones (hero, bio, services, etc.) |
 | SEO | `seo.title`, `.description`, `.keywords`, `.ogImage` | Meta tags, Open Graph, keywords |
 
-> Para la guía completa con todos los campos en detalle, ejemplos de reconfiguración (incluyendo cómo convertir esta landing en una tienda de presets) y los límites del JSON → **[`docs/CONFIG_GUIDE.md`](./docs/CONFIG_GUIDE.md)**
+> Para la guia completa con todos los campos en detalle, ejemplos de reconfiguracion (incluyendo como convertir esta landing en una tienda de presets) y los limites del JSON -> **[`docs/CONFIG_GUIDE.md`](./docs/CONFIG_GUIDE.md)**
