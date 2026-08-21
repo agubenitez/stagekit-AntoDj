@@ -1,16 +1,16 @@
 {
-  "designPreset": "SalvajeDjPreset_2",
+  "designPreset": "SalvajeDjPreset",
   "validDesignPresets": ["gold", "neon", "slate", "pearl", "ember", "frost", "sienna", "vapor", "barbie", "barbie-dark", "barbie-blue", "SalvajeDjPreset"],
 
   "artisticName": "Anto Bravo DJ",
   "slogan": "   ",
-  "description": "DJ y Productor musical uruguaya radicada en Punta del este con mas de 5 años de trayectoria en la escena electronica nacional e internacional. Con una identidad sonora marcada por la fusion de energia, elegancia y profundidad ritmica. Especilizada en House, Melodic House, Deep House, Tech House.",
+  "description": "Antonella Bravo DJ y Productor musical uruguaya radicada en Punta del este, con mas de 5 años en la escena electronica nacional e internacional. Con una identidad sonora vibrante marcada por la fusion de energia, elegancia y profundidad ritmica, con una habilidad única a la hora de hacer vibrar la pista, además de su minuciosa selección musical única para cada set. Teniendo presentaciones en diferentes clubes en Latinoamérica y Europa (Uruguay, México, Brasil, Ibiza, Valencia). Compartiendo cabina con grandes artistas nacionales e internacionales.",
   "logo": "/images/logo.png",
   "favicon": "/favicon.ico",
 
   "sectionMaxWidth": "1500px",
   "validSectionIds": ["hero", "bio_con_foto", "bio", "services", "equipment", "gallery", "videos", "songs", "music", "faq", "tours", "tour_table", "contact"],
-  "sectionOrder": ["hero","bio_con_foto","music","tours","videos","gallery","equipment","contact"],
+  "sectionOrder": ["hero","bio_con_foto","gallery","music","tours","equipment","contact"],
   "toursSource": "google-sheets",
   "toursSourceValid": ["static", "google-sheets"],
   "toursSheetUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRqPK5-3p4lGd9J1P3LQmeLDBdNbJ5Qh9ekLwk72nx92IoEdEvfHRlmkTtDnJ464AXf0vYQqq50Curs/pub?gid=0&single=true&output=csv",
@@ -21,7 +21,7 @@
     "ctaText": "",
     "layout": "titles",
     "titles": [
-      { "text": "-w-" },
+      { "text": "DJ" },
       { "text": "Anto Bravo" },
       { "text": "Anto Bravo" },
       { "text": "Anto Bravo" }
@@ -115,14 +115,14 @@
   },
 
   "gallery": [
-    "/images/stereo.jpg",
     "/images/espalda camp.jpg",
-    "/images/narbona.jpg"
+    "/images/stereo.jpg",
+    "/images/silla xdj.jpg"
   ],
   "galleryTexts": {
     "sectionTag": "Gira & Eventos",
     "heading": "Momentos capturados en Vivo",
-    "description": "Una mirada de cerca a la atmósfera y energía de los sets en vivo, festivales y fiestas privadas de alto nivel.",
+    "description": "Una mirada de cerca a la atmósfera y energía de los sets en vivo, festivales y fiestas VIP.",
     "overlayLabel": "Stage Capture"
   },
 
@@ -172,11 +172,6 @@
       "id": "music_1",
       "title": "TECH-HOUSE-SET2026",
       "url": "https://soundcloud.com/anto-bravo-240086065/tech-house-set2026"
-    },
-    {
-      "id": "music_2",
-      "title": "Demomykonos",
-      "url": "https://soundcloud.com/anto-bravo-240086065/demomykonos-wav"
     }
   ],
   "musicTexts": {
@@ -290,8 +285,8 @@
 
   "contactForm": {
     "enabled": true,
-    "title": "Coordinemos tu Próxima Experiencia",
-    "description": "Completa tus datos de contacto y cuéntanos la fecha, locación y detalles iniciales de tu celebración. Nos pondremos en contacto contigo en menos de 24 horas hábiles para diseñar tu presupuesto a medida."
+    "title": "Consultar agenda",
+    "description": "Completa tus datos y cuentame la fecha, locación y detalles iniciales de tu evento. Nos pondremos en contacto contigo en menos de 24 horas."
   },
   "contactFormTexts": {
     "sectionTag": "Reservar Fecha",
